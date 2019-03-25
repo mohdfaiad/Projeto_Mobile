@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/03/25 16:36:04.720,=C:\Users\Ibyte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 16:37:10.018,C:\Users\Public\Documents\Embarcadero\Studio\projeto mobile\Forms\uFrmPrincipal.pas=C:\Users\Ibyte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 16:37:10.018,C:\Users\Public\Documents\Embarcadero\Studio\projeto mobile\Forms\uFrmPrincipal.fmx=C:\Users\Ibyte\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/03/25 18:01:44.133,C:\Users\Public\Documents\Embarcadero\Studio\projeto mobile\Project1.dproj=C:\Users\Ibyte\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
