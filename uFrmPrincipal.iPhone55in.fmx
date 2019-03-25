@@ -1,0 +1,53 @@
+inherited FrmPrincipal_iPhone55in: TFrmPrincipal_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 414.000000000000000000
+    Size.Height = 716.000000000000000000
+    Sizes = (
+      414s
+      667s
+      414s
+      667s)
+    inherited TabLogin: TTabItem
+      Size.Width = 207.000000000000000000
+      ExplicitSize.cx = 145.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Width = 414.000000000000000000
+        Size.Height = 667.000000000000000000
+        inherited Image1: TImage
+          MultiResBitmap.Height = 128
+          MultiResBitmap.Width = 128
+          Size.Width = 414.000000000000000000
+        end
+      end
+      inherited LtLogin: TLayout
+        inherited EdtEmail: TEdit
+          Size.Height = 30.000000000000000000
+        end
+        inherited LblEmail: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited LblSenha: TLabel
+          Position.Y = 63.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited EdtSenha: TEdit
+          Position.Y = 86.000000000000000000
+          Size.Height = 30.000000000000000000
+        end
+        inherited BtnAcessar: TButton
+          Position.Y = 136.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabMan: TTabItem
+      Size.Width = 207.000000000000000000
+      ExplicitSize.cx = 146.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

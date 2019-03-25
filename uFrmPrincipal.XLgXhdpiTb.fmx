@@ -1,0 +1,44 @@
+inherited FrmPrincipal_XLgXhdpiTb: TFrmPrincipal_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 800.000000000000000000
+    Size.Height = 1255.000000000000000000
+    Sizes = (
+      800s
+      1206s
+      800s
+      1206s)
+    inherited TabLogin: TTabItem
+      Size.Width = 400.000000000000000000
+      ExplicitSize.cx = 145.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Width = 800.000000000000000000
+        Size.Height = 1206.000000000000000000
+        inherited Image1: TImage
+          MultiResBitmap.Height = 128
+          MultiResBitmap.Width = 128
+          Size.Width = 800.000000000000000000
+        end
+      end
+      inherited LtLogin: TLayout
+        inherited LblEmail: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited LblSenha: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited BtnAcessar: TButton
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabMan: TTabItem
+      Size.Width = 400.000000000000000000
+      ExplicitSize.cx = 146.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

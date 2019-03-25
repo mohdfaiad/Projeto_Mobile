@@ -1,0 +1,37 @@
+inherited FrmPrincipal_Macintosh: TFrmPrincipal_Macintosh
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Sizes = (
+      291s
+      431s
+      291s
+      431s)
+    inherited TabLogin: TTabItem
+      Size.Width = 58.000000000000000000
+      ExplicitSize.cx = 145.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Rectangle1: TRectangle
+        inherited Image1: TImage
+          MultiResBitmap.Height = 128
+          MultiResBitmap.Width = 128
+        end
+      end
+      inherited LtLogin: TLayout
+        inherited LblEmail: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited LblSenha: TLabel
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited BtnAcessar: TButton
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    inherited TabMan: TTabItem
+      Size.Width = 52.000000000000000000
+      ExplicitSize.cx = 146.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end
